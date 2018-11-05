@@ -1,0 +1,30 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\title{PreDossier APM}
+\author{Nathan Surquin\\
+William Michaux\\
+Antoine Lambert}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\section{Ennoncé}
+\subsection{Gestion du stock}
+Selon différent facteurs, le gestionnaire de stock commande des marchandises aux fournisseurs.
+\subsubsection{Objectif du gestionnaire de stock}
+Déterminer la quantité de stock nécessaire : quantité minimum et de réassort de chaque     produit. Tenir compte de : commandes effectives, délais de livraison et évènements à venir. A une date donnée (date souhaitée), le manager de stock (=gestionnaire de stock) calcule l’image de stock et génère la commande de réassort. Cette commande doit être validée par le manager (gérant de l’entreprise, !=gestionnaire de stock).
+\subsubsection{Retour vidange}
+Le gestionnaire de stock (gère aussi le retour des vidanges au fournisseur) génère un bon de retour à destination du fournisseur. A chaque retour de vidange fournisseur, un bon de remboursement est créé pour la comptabilité (de la brasserie), service qui pourra ensuite valider le remboursement du fournisseur.
+\subsubsection{Réception de la marchandise}
+Le gestionnaire de stock vérifie chaque livraison (en termes de quantité et de conformité). Ensuite, il entre les marchandises dans le stock et crée une facture pour la comptabilité. Ce service utilisera cette facture reçue du gestionnaire de stock pour vérifier la facture ultérieure du fournisseur. (‘celle créée par le gestionnaire de stock sert donc de sécurité pour vérifier qu’ils ne seront pas surtaxés’). (le gestionnaire de stock est responsable des articles dans le stock et de leur structure : la brasserie ne gère officiellement pas de « vrac » mais certains produits sont séparés de leur pack exemple : un casier de bière entre mais un seule sort).
+\subsection{Gestion des ventes comptoir}
+Les clients passent au drive-in.Ils peuvent payer par virement ultérieur ou en cash. Le gestionnaire de client décide du statut du client et de la limite de crédit accordée.
+\subsection{Gesion des commandes}
+
+\end{document}
